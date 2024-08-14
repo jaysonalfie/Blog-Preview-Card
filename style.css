@@ -16,3 +16,26 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--yellow);
+    width: 100%;
+    height: 100vh;
+}
+
+.main-container{
+    border: 1px solid black;
+    background-color: var(--white);
+    padding: 1.25rem;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 0px -3px rgba(0,0,0,1);
+    /*max-width allows for responsivity..it is not rigid*/
+    max-width: 380px;
+    height: 539px;
+}
+
+.main-container img{
+    border-radius: 0.77rem;
+}
