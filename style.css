@@ -10,6 +10,8 @@
  }
 
 /*Universal Selector*/
+/*Rem is relative to the root element, eg if root is 16px then 0.5rem is 8px
+-Line height controls amount of space between lines of text within an element*/
 *{
     margin: 0;
     padding:0;
@@ -17,6 +19,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: 'Figtree',sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +39,87 @@ body{
     height: 539px;
 }
 
-.main-container img{
-    border-radius: 0.77rem;
+/*Selects all img elements that are direct children of the main-container*/
+.main-container img {
+    border-radius:0.77rem;
+    display:block;
+    object-fit: cover;
+    width: 100%;
+    
+}
+.main-container button{
+    background-color: var(--yellow);
+    padding: 0.5rem 1em;
+    border-radius: 0.3rem;
+    margin:1rem 0;
+    border: none;
+    font-size: 0.8rem;
+    font-weight:800;
+
+}
+
+.main-container button:hover{
+    cursor: pointer;
+    background-color: var(--gray950);
+    color: var(--white);
+}
+
+
+
+.main-container h3{
+    font-weight: 600;
+}
+.main-container h2{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.main-container h3:hover{
+    cursor:pointer;
+    color: var(--yellow);
+}
+.main-container h2:hover{
+    cursor:pointer;
+    color:var(--yellow);
+}
+
+.main-container p {
+    color: var(--gray500);
+    font-weight: 300;
+    padding: 0.5rem 0rem;
+    line-height: 1.5;
+
+}
+
+
+
+.main-container .avatar{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    padding-top: 1.4rem;
+}
+
+.main-container .avatar img{
+    width: 12%;
+}
+
+.attribution{
+    margin-top: 1rem;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+/*Mobile responsiveness*/
+/*applis the styles when the viewport width is equal to or less than the givne height*/
+@media screen and (max-width:380px){
+    .main-container{
+        max-width:100%;
+        height: 100%;
+        margin:0 1rem;
+
+    }
 }
