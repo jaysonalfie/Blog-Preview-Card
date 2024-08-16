@@ -114,7 +114,11 @@ body{
 }
 
 /*Mobile responsiveness*/
-/*applies the styles when the viewport width is equal to or less than(narrower) the given height*/
+/*applies the styles when the viewport width is equal to or less than(narrower) the given height
+min width- equal to the given pixels or wider*/
+/*Breaking point for phone -375px
+  Breaking point for tablets - 600px
+  '+"- operator to any element that directly follows another*/
 @media screen and (max-width:380px){
     .main-container{
         max-width:100%;
@@ -122,4 +126,11 @@ body{
         margin:0 1rem;
 
     }
+    h2{
+        font-size: 1.3rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    
 }
