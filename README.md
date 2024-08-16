@@ -30,7 +30,7 @@ I just used HTML together with CSS to make the layout and also for the styling o
 - CSS custom properties
 
 ## Resources
-- MDN Docs: [https://developer.mozilla.org/en-US/]
+- [MDN Docs] (https://developer.mozilla.org/en-US/)
 
 ## Author
 - Github - [Jaysonalfie](https://github.com/jaysonalfie)
