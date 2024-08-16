@@ -26,11 +26,11 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 I just used HTML together with CSS to make the layout and also for the styling of the component. 
 
 ## Built with
--Semantic HTML5 markup
--CSS custom properties
+- Semantic HTML5 markup
+- CSS custom properties
 
 ## Resources
--MDN Docs: [https://developer.mozilla.org/en-US/]
+- MDN Docs: [https://developer.mozilla.org/en-US/]
 
 ## Author
 - Github - [Jaysonalfie](https://github.com/jaysonalfie)
