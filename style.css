@@ -114,7 +114,7 @@ body{
 }
 
 /*Mobile responsiveness*/
-/*applis the styles when the viewport width is equal to or less than the givne height*/
+/*applies the styles when the viewport width is equal to or less than(narrower) the given height*/
 @media screen and (max-width:380px){
     .main-container{
         max-width:100%;
