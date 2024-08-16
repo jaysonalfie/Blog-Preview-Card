@@ -1,4 +1,4 @@
-# Frontend Mentor - Qr code component solution
+# Frontend Mentor - Blog preview card solution
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve yout coding skills by building realistic projects
 
@@ -8,6 +8,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Links](#links)
 - [My process](#myprocess)
   - [Built with](#built-with)
+  - [Resources](#resources)
 - [Author](#author)
 
 # Overview
@@ -27,6 +28,9 @@ I just used HTML together with CSS to make the layout and also for the styling o
 ## Built with
 -Semantic HTML5 markup
 -CSS custom properties
+
+## Resources
+-MDN Docs: [https://developer.mozilla.org/en-US/]
 
 ## Author
 - Github - [Jaysonalfie](https://github.com/jaysonalfie)
