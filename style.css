@@ -11,7 +11,9 @@
 
 /*Universal Selector*/
 /*Rem is relative to the root element, eg if root is 16px then 0.5rem is 8px
--Line height controls amount of space between lines of text within an element*/
+-Line height controls amount of space between lines of text within an element
+
+-Avoid setting the height and instead let the layout and margins and paddings set the height of the components*/
 *{
     margin: 0;
     padding:0;
